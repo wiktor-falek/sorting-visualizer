@@ -2,7 +2,7 @@
 
 #### How to use?
 
-`'python sort.py' `  bubble sort by default
+`'python sort.py'` bubble sort by default
 
 `'python sort.py -h'` for argument help 
 
