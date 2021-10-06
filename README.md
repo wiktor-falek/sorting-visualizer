@@ -17,7 +17,7 @@ NOTE: file name cannot start with `_` an underscore
 
 Create a sorting function named after your file
 
-Example function:
+### Example function:
 ```py
 # ./algorithms/timsort.py
 def timsort(array):
