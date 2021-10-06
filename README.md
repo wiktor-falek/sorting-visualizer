@@ -1,6 +1,8 @@
 ## CLI TOOL FOR VISUALIZING SORTING ALGORITHMS
 
-#### How to use?
+#### How to use it?
+
+open cmd in project's directory
 
 `'python sort.py'` bubble sort by default
 
@@ -20,3 +22,7 @@ def timsort(array):
     # swap arr_copy
     yield arr_copy # function must yield whenever you want to see the change
 ```
+
+now you can visualize your timsort algorithm running this command:
+
+`python sort.py timsort`
