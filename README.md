@@ -1,1 +1,1 @@
-##### cli tool for visualizing sorting algorithms
+#### cli tool for visualizing sorting algorithms
