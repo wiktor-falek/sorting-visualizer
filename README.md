@@ -5,9 +5,9 @@ CLI tool made for visualizing sorting algorithms
 
 Open cmd in project's directory
 
-`'python sort.py'` bubble sort by default
+`python sort.py` bubble sort by default
 
-`'python sort.py -h'` for argument help 
+`python sort.py -h` for argument help 
 
 ## How to add your own algorithm?
 
