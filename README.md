@@ -13,10 +13,10 @@ create file in ./algorithms for example timsort.py
 create a sorting function named after your file
 
 example function:
-`
+```
 def timsort(array):
   arr_copy = array[:]
   while True:
     # swap arr_copy
     yield arr_copy # function must yield whenever you want to see the change
-`
+```
