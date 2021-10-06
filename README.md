@@ -1,6 +1,6 @@
-### cli tool for visualizing sorting algorithms
+## CLI TOOL FOR VISUALIZING SORTING ALGORITHMS
 
-##### How to use?
+#### How to use?
 
 `'python sort.py' `
 
