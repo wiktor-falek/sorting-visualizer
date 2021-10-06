@@ -10,7 +10,9 @@ Open cmd in project's directory
 
 ### How to add your own algorithm?
 
-Create file in ./algorithms for example timsort.py
+Create file in project/algorithms for example timsort.py
+
+NOTE: file name cannot start with `_`
 
 Create a sorting function named after your file
 
