@@ -12,7 +12,7 @@ Open cmd in project's directory
 
 Create file in project/algorithms for example timsort.py
 
-NOTE: file name cannot start with `_`
+NOTE: file name cannot start with `_` an underscore
 
 Create a sorting function named after your file
 
