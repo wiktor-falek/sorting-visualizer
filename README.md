@@ -15,11 +15,11 @@ CLI tool for visualizing sorting algorithms
 
 python sort.py algorithm array_size
 
-`-h` shows argument help and list of algorithms
+`python sort.py -h` for argument help and list of algorithms
 
-`algorithm` for list of algorithms see below, defaults to bubble
+1. `algorithm` required, defaults to bubble sort
 
-`array_size` must be between 2 and 50, defaults to 15
+1. `array_size` must be between 2 and 50, defaults to 15
 
 ### Example
 
@@ -43,23 +43,24 @@ python sort.py algorithm array_size
 
 ## How to add your own algorithm? 💪
 
-Create file in **algorithms** folder, for example timsort.py
+Create file in **algorithms** folder, for example myalgorithm.py
 
-:bangbang: | **File name cannot start with an underscore**
+⚠️ | **File name cannot start with an underscore**
 :---: | :---
-
-Create a sorting function named after your file
+‼️ | **Your function must be named after your file**
+:---: | :---
 
 ### Example function: ✍️
 ```py
-# ./algorithms/timsort.py
-def timsort(array):
-  arr_copy = array[:]
+# ./algorithms/myalgorithm.py
+def myalgorithm(array):
+  arr_copy = list(array)
   while True:
-    # swap arr_copy
-    yield arr_copy # function must yield whenever you want to see the change
+    # alter arr_copy
+    yield arr_copy # function must yield updated array
+                   # whenever you want to see the change
 ```
 
-### Now you can visualize your timsort algorithm running this command: 👀
+### Now you can visualize your algorithm running this command: 👀
 
-`python sort.py timsort`
+`python sort.py myalgorithm`
