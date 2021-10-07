@@ -17,15 +17,14 @@ def visualize(arr, iterations):
             m[i][j] = 1
 
     matrix = [[m[j][i] for j in range(len(m))] for i in range(len(m[0])-1,-1,-1)]
-    s = ""
+    s = "\n"
     for array in matrix:
         for value in array:
-            s += '█ ' if value == 1 else '  '
+            s += ' █' if value == 1 else '  '
         s += '\n'
-    s += f'\niterations: {iterations}'
+    s += f'\n iterations: {iterations}'
     os.system('cls')
     print(s)
-    
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Visualisation of sorting algorithms")
@@ -37,8 +36,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
     algorithm, arr_size = args.a, args.s
 
-    if 2 > arr_size or arr_size > 60:
-        raise ValueError('Array size must be in range(2, 61)')
+    if 2 > arr_size or arr_size > 50:
+        raise ValueError('Array size must be in range(2, 51)')
 
     initial_array = [x for x in range(1, arr_size + 1)]
     array = list(initial_array)
@@ -66,5 +65,5 @@ if __name__ == '__main__':
             total_time = time.time() - start_total_time
             break
 
-    print(f'total time: {total_time:.4f}s')
-    print(f'algorithm time: {alg_time:.10f}s')
+    print(f' total time: {total_time:.4f}s')
+    print(f' algorithm time: {alg_time:.10f}s')
