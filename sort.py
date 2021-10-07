@@ -37,8 +37,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
     algorithm, arr_size = args.a, args.s
 
-    if arr_size < 2:
-        raise ValueError('Array size must be greater than 1')
+    if 2 > arr_size or arr_size > 60:
+        raise ValueError('Array size must be in range(2, 61)')
 
     initial_array = [x for x in range(1, arr_size + 1)]
     array = list(initial_array)
@@ -68,8 +68,3 @@ if __name__ == '__main__':
 
     print(f'total time: {total_time:.4f}s')
     print(f'algorithm time: {alg_time:.10f}s')
-'''
-calculate average for array size 1-10, 100 iterations should be enough
-create graph based on average time
-figue out formula for average iterations
-'''
