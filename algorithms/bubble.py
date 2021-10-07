@@ -1,5 +1,5 @@
 def bubble(array):
-    arr = array[:]
+    arr = list(array)
     max_i = len(arr) - 1
     go_on = True
     while go_on:
