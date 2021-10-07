@@ -11,7 +11,7 @@ CLI tool for visualizing sorting algorithms
 
 1. Run `python sort.py` command,  bubble sort by default
 
-1. run cmd in full screen for smoother effect
+1. Maximize cmd to full screen for smoother effect
 
 ## Arguments ⚙️
 
@@ -29,7 +29,7 @@ Argument order `python sort.py algorithm array_size`
 
 ## Built-in Algorithms
 
-### Stable
+### Stable 👍
 
   * #### O(n^2)
 
@@ -37,7 +37,7 @@ Argument order `python sort.py algorithm array_size`
 
     * Insertion
 
-### Unstable
+### Unstable 👎
 
   * #### O((n+1)!)
 
@@ -45,21 +45,23 @@ Argument order `python sort.py algorithm array_size`
 
 ## How to add your own algorithm? 💪
 
-Create file in **algorithms** folder, for example myalgorithm.py
+Create .py file in **algorithms** folder, for example myalgorithm.py
 
 ‼️ | **Your function must be named after your file**
 :---: | :---
 ⚠️ | **File name cannot start with an underscore**
 
-### Example function: ✍️
+### Example function ✍
 ```py
 # ./sorting-visualizer/algorithms/myalgorithm.py
+
 def myalgorithm(array):
   arr_copy = list(array)
-  while True:
-    # alter arr_copy
+  while not_sorted:
+    # modify arr_copy
     yield arr_copy # function must yield updated array
                    # whenever you want to see the change
+  # function should yield until array is sorted
 ```
 
 ### Now you can visualize your algorithm running this command: 👀
