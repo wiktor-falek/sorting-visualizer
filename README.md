@@ -1,7 +1,7 @@
 # Sorting Visualizer
 CLI tool for visualizing sorting algorithms
 
-##  How to use it? 🤔
+##  How to use it? #🤔
 
 Open cmd in project's directory
 
@@ -9,7 +9,7 @@ Open cmd in project's directory
 
 `python sort.py -h` for argument help 
 
-## How to add your own algorithm? 💪
+## How to add your own algorithm? #💪
 
 Create file in algorithms folder, for example timsort.py
 
@@ -17,7 +17,7 @@ NOTE: file name cannot start with `_` an underscore
 
 Create a sorting function named after your file
 
-### Example function: ✍️
+### Example function: #✍️
 ```py
 # ./algorithms/timsort.py
 def timsort(array):
@@ -27,6 +27,6 @@ def timsort(array):
     yield arr_copy # function must yield whenever you want to see the change
 ```
 
-Now you can visualize your timsort algorithm running this command: 👀
+Now you can visualize your timsort algorithm running this command: #👀
 
 `python sort.py timsort`
