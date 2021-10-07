@@ -8,7 +8,6 @@ from _modules import * # modules = list of modules in algorithms folder
 
 def visualize(arr, iterations):
     arr_len = len(arr)
-    if not arr_len: return
 
     m = [[0]*max(arr) for _ in range(arr_len)]
 
@@ -17,6 +16,7 @@ def visualize(arr, iterations):
             m[i][j] = 1
 
     matrix = [[m[j][i] for j in range(len(m))] for i in range(len(m[0])-1,-1,-1)]
+    
     s = "\n"
     for array in matrix:
         for value in array:
@@ -34,7 +34,7 @@ if __name__ == '__main__':
                         help="array with values ranging from 1 to size + 1 (limited to 2-70)")
 
     args = parser.parse_args()
-    algorithm, arr_size = args.a, args.s
+    algorithm, arr_size = args.a.lower(), args.s
 
     if 2 > arr_size or arr_size > 50:
         raise ValueError('Array size must be in range(2, 51)')
@@ -56,9 +56,9 @@ if __name__ == '__main__':
 
     while True:
         try:
-            start = time.perf_counter()
+            start_alg_time = time.perf_counter()
             arr = list(next(gen))
-            alg_time += time.perf_counter() - start
+            alg_time += time.perf_counter() - start_alg_time
             iterations += 1
             visualize(arr, iterations)
         except StopIteration:
@@ -66,4 +66,4 @@ if __name__ == '__main__':
             break
 
     print(f' total time: {total_time:.4f}s')
-    print(f' algorithm time: {alg_time:.10f}s')
+    print(f' algorithm time: {alg_time:.8f}s')
