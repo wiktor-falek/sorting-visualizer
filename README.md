@@ -5,15 +5,15 @@ CLI tool for visualizing sorting algorithms
 
 ##  How to use it? 🤔
 
-1. Open cmd in project's directory
+1. Open cmd in project's main directory
 
-1. run `python sort.py` command,  bubble sort by default
+1. Run `python sort.py` command,  bubble sort by default
 
 1. run cmd in full screen for smoother effect
 
 ## Arguments ⚙️
 
-python sort.py algorithm array_size
+`python sort.py algorithm array_size`
 
 `python sort.py -h` for argument help and list of algorithms
 
