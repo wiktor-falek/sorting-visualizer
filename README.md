@@ -21,8 +21,7 @@ python sort.py algorithm array_size
 
 `array_size` must be between 2 and 50, defaults to 15
 
-## Algorithms
-Currently these algorithms are built-it
+## Built-in Algorithms
 
 ### Stable
 
@@ -33,7 +32,9 @@ Currently these algorithms are built-it
 `Insertion`
 
 ### Unstable
+
 O((n+1)!)
+
 `Bogosort` 💩
 
 ## How to add your own algorithm? 💪
