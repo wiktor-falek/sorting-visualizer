@@ -9,7 +9,28 @@ Open cmd in project's directory
 
 `python sort.py` bubble sort by default
 
-`python sort.py -h` for argument help 
+### Arguments ⚙️
+
+python sort.py algorithm array_size
+`-h` shows argument help and list of algorithms
+`algorithm` for list of algorithms see below, defaults to bubble
+`array_size` must be between 2 and 50, defaults to 15
+
+### Algorithms
+Currently these algorithms are built-it
+
+#### Stable
+
+##### O(n^2)
+
+`Bubble` 
+
+`Insertion`
+
+#### Unstable
+O((n+1)!)
+`Bogosort` 💩
+
 
 ## How to add your own algorithm? 💪
 
@@ -29,6 +50,6 @@ def timsort(array):
     yield arr_copy # function must yield whenever you want to see the change
 ```
 
-Now you can visualize your timsort algorithm running this command: 👀
+### Now you can visualize your timsort algorithm running this command: 👀
 
 `python sort.py timsort`
