@@ -23,7 +23,7 @@ python sort.py algorithm array_size
 
 ## Built-in Algorithms
 
-### Stable 📈
+### Stable
 
   * #### O(n^2)
 
@@ -31,7 +31,7 @@ python sort.py algorithm array_size
 
     * Insertion
 
-### Unstable 📉
+### Unstable
 
   * #### O((n+1)!)
 
