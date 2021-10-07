@@ -43,9 +43,9 @@ python sort.py algorithm array_size
 
 ## How to add your own algorithm? 💪
 
-Create file in algorithms folder, for example timsort.py
+Create file in **algorithms** folder, for example timsort.py
 
-NOTE: file name cannot start with `_` an underscore
+:warning: file name cannot start with an `_`
 
 Create a sorting function named after your file
 
