@@ -39,7 +39,7 @@ Argument order `python sort.py algorithm array_size`
 
 ### Unstable 👎
 
-  * #### O((n+1)!) 💀
+  * #### O(n!) 💀
 
     * Bogosort 💩
 
