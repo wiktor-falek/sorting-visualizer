@@ -49,12 +49,9 @@ Create file in **algorithms** folder, for example myalgorithm.py
 :---: | :---
 ⚠️ | **File name cannot start with an underscore**
 
-
-
-
 ### Example function: ✍️
 ```py
-# ./algorithms/myalgorithm.py
+# ./sorting-visualizer/algorithms/myalgorithm.py
 def myalgorithm(array):
   arr_copy = list(array)
   while True:
