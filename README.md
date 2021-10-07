@@ -25,19 +25,21 @@ python sort.py algorithm array_size
 
 ### Stable
 
-* #### O(n^2)
+  * #### O(n^2)
 
-  * Bubble
+    * Bubble
 
-  * Insertion
+    * Insertion
 
-* #### O(n log n)
+  * #### O(n log n)
+  
+    * template
 
 ### Unstable
 
-* #### O((n+1)!)
+  * #### O((n+1)!)
 
-  * Bogosort 💩
+    * Bogosort 💩
 
 ## How to add your own algorithm? 💪
 
