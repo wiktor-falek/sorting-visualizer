@@ -9,25 +9,25 @@ Open cmd in project's directory
 
 `python sort.py` bubble sort by default
 
-### Arguments ⚙️
+## Arguments ⚙️
 
 python sort.py algorithm array_size
 `-h` shows argument help and list of algorithms
 `algorithm` for list of algorithms see below, defaults to bubble
 `array_size` must be between 2 and 50, defaults to 15
 
-### Algorithms
+## Algorithms
 Currently these algorithms are built-it
 
-#### Stable
+### Stable
 
-##### O(n^2)
+#### O(n^2)
 
 `Bubble` 
 
 `Insertion`
 
-#### Unstable
+### Unstable
 O((n+1)!)
 `Bogosort` 💩
 
