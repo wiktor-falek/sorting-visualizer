@@ -46,9 +46,9 @@ python sort.py algorithm array_size
 Create file in **algorithms** folder, for example myalgorithm.py
 
 ⚠️ | **File name cannot start with an underscore**
-
-‼️ | **Your function must be named after your file**
 :---: | :---
+‼️ | **Your function must be named after your file**
+
 
 ### Example function: ✍️
 ```py
