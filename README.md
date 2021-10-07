@@ -9,6 +9,8 @@ Open cmd in project's directory
 
 `python sort.py` bubble sort by default
 
+run cmd in full screen for smoother effect
+
 ## Arguments ⚙️
 
 python sort.py algorithm array_size
