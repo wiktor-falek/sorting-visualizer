@@ -13,9 +13,9 @@ CLI tool for visualizing sorting algorithms
 
 ## Arguments ⚙️
 
-`python sort.py algorithm array_size`
+`python sort.py -h` for list of algorithms and argument help
 
-`python sort.py -h` for argument help and list of algorithms
+argument order **python sort.py algorithm array_size**
 
 1. `algorithm` required, defaults to bubble sort
 
