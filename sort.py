@@ -6,9 +6,10 @@ import os
 from _modules import * # modules = list of modules in algorithms folder
 
 
-def visualize(arr):
+def visualize(arr, iterations):
     arr_len = len(arr)
-    
+    if not arr_len: return
+
     m = [[0]*max(arr) for _ in range(arr_len)]
 
     for i in range(arr_len):
@@ -16,39 +17,59 @@ def visualize(arr):
             m[i][j] = 1
 
     matrix = [[m[j][i] for j in range(len(m))] for i in range(len(m[0])-1,-1,-1)]
-    os.system('cls')
+    s = ""
     for array in matrix:
         for value in array:
-            print('█' if value == 1 else ' ', end=' ')
-        print()
-
+            s += '█ ' if value == 1 else '  '
+        s += '\n'
+    s += f'\niterations: {iterations}'
+    os.system('cls')
+    print(s)
+    
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Visualisation of sorting algorithms")
     parser.add_argument('a', type=str, default='bubble', nargs='?',
                         help=f"available algorithms {modules}")
     parser.add_argument('s', type=int, default=15, nargs='?',
-                        help="array size with values ranging from 1 to size + 1")
-    parser.add_argument('t', default=0, type=int, nargs='?',
-                        help="delay between each update in ms")
+                        help="array with values ranging from 1 to size + 1 (limited to 2-70)")
 
     args = parser.parse_args()
-    algorithm, arr_size, ms_delay = args.a, args.s, args.t
+    algorithm, arr_size = args.a, args.s
 
-    array = [x for x in range(1, arr_size + 1)]
-    shuffle(array)
+    if arr_size < 2:
+        raise ValueError('Array size must be greater than 1')
+
+    initial_array = [x for x in range(1, arr_size + 1)]
+    array = list(initial_array)
+    while array == initial_array:
+        shuffle(array)
 
     if algorithm in modules:
         gen = eval(algorithm)(array)
     else:
-        print(f'algorithm not found\navailable algorithms: {modules}')
+        print(f"'{algorithm}' algorithm not found\navailable algorithms: {modules}")
         exit()
 
+    iterations = 0
+    alg_time = 0
+    start_total_time = time.time()
+
     while True:
-        if ms_delay > 0:
-            time.sleep(ms_delay/1000)
         try:
+            start = time.perf_counter()
             arr = list(next(gen))
-            visualize(arr)
+            alg_time += time.perf_counter() - start
+            iterations += 1
+            visualize(arr, iterations)
         except StopIteration:
+            total_time = time.time() - start_total_time
             break
+
+    print(f'total time: {total_time:.4f}s')
+    print(f'algorithm time: {alg_time:.10f}s')
+'''
+calculate average for array size 1-10, 100 iterations should be enough
+create graph based on average time
+figue out formula for average iterations
+'''
