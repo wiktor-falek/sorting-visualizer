@@ -1,6 +1,8 @@
 # Sorting Visualizer
 CLI tool for visualizing sorting algorithms
 
+![Alt text](/example.gif?raw=true)
+
 ##  How to use it? 🤔
 
 Open cmd in project's directory
