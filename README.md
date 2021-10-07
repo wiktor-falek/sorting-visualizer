@@ -45,7 +45,8 @@ python sort.py algorithm array_size
 
 Create file in **algorithms** folder, for example timsort.py
 
-:warning: file name cannot start with an `_`
+:bangbang: | **File name cannot start with an underscore**
+:---: | :---
 
 Create a sorting function named after your file
 
