@@ -25,7 +25,7 @@ python sort.py algorithm array_size
 
 ### Stable
 
-#### * O(n^2)
+* #### O(n^2)
 
 * Bubble
 
@@ -33,7 +33,7 @@ python sort.py algorithm array_size
 
 ### Unstable
 
-#### * O((n+1)!)
+* #### O((n+1)!)
 
 * Bogosort 💩
 
