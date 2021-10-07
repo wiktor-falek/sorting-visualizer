@@ -17,9 +17,9 @@ CLI tool for visualizing sorting algorithms
 
 Argument order `python sort.py algorithm array_size`
 
-1. `algorithm='bubble'` required, use command above to see available algorithms
+1. `algorithm = bubble` required, use command above to see available algorithms
 
-1. `array_size=15` required must be in range(2, 51)
+1. `array_size = 15` required must be in range(2, 51)
 
 ### Example
 
