@@ -64,6 +64,6 @@ def myalgorithm(array):
   # function should yield until array is sorted
 ```
 
-### Now you can visualize your algorithm running this command: 👀
+### Now you can visualize your algorithm running this command 👀
 
 `python sort.py myalgorithm`
