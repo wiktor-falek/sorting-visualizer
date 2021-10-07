@@ -21,6 +21,10 @@ python sort.py algorithm array_size
 
 `array_size` must be between 2 and 50, defaults to 15
 
+### Example
+
+`python sort.py insertion 20` sorts array of numbers in range(1, 21) using insertion sort
+
 ## Built-in Algorithms
 
 ### Stable
