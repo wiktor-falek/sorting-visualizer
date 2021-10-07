@@ -12,8 +12,11 @@ Open cmd in project's directory
 ## Arguments ⚙️
 
 python sort.py algorithm array_size
+
 `-h` shows argument help and list of algorithms
+
 `algorithm` for list of algorithms see below, defaults to bubble
+
 `array_size` must be between 2 and 50, defaults to 15
 
 ## Algorithms
@@ -30,7 +33,6 @@ Currently these algorithms are built-it
 ### Unstable
 O((n+1)!)
 `Bogosort` 💩
-
 
 ## How to add your own algorithm? 💪
 
