@@ -31,7 +31,7 @@ if __name__ == '__main__':
     parser.add_argument('a', type=str, default='bubble', nargs='?',
                         help=f"available algorithms {modules}")
     parser.add_argument('s', type=int, default=15, nargs='?',
-                        help="array with values ranging from 1 to size + 1 (limited to 2-70)")
+                        help="array with values ranging from 1 to size + 1 (limited to 2-50)")
 
     args = parser.parse_args()
     algorithm, arr_size = args.a.lower(), args.s
