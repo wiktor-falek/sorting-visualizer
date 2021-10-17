@@ -3,7 +3,7 @@ import argparse
 import time
 import os
 
-from _modules import * # modules = list of modules in algorithms folder
+from _modules import * # all algorithm functions, modules - list of modules in algorithms folder
 
 
 def visualize(arr, iterations):
@@ -15,7 +15,7 @@ def visualize(arr, iterations):
         for j in range(arr[i]):
             m[i][j] = 1
 
-    matrix = [[m[j][i] for j in range(len(m))] for i in range(len(m[0])-1,-1,-1)]
+    matrix = [[m[j][i] for j in range(len(m))] for i in range(len(m[0])-1,-1,-1)] # 90 degree rotation
     
     s = "\n"
     for array in matrix:
