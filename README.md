@@ -17,8 +17,6 @@ CLI tool for visualizing sorting algorithms
 
 `python sort.py -h` for list of algorithms and argument help
 
-Argument order `python sort.py algorithm array_size`
-
 1. `algorithm = bubble` required, use command above to see available algorithms
 
 1. `array_size = 15` required, must be in range(2, 51)
@@ -64,6 +62,6 @@ def myalgorithm(array):
   # function should yield until array is sorted
 ```
 
-### Now you can visualize your algorithm running this command: 👀
+### Now you can visualize your algorithm running this command 👀
 
 `python sort.py myalgorithm`
