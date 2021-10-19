@@ -23,7 +23,7 @@ def visualize(arr, iterations):
             s += ' █' if value == 1 else '  '
         s += '\n'
     s += f'\n iterations: {iterations}'
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     print(s)
 
 if __name__ == '__main__':
