@@ -7,11 +7,11 @@ CLI tool for visualizing sorting algorithms
 
 1. Have python 3.6+ installed
 
-1. Open cmd in project's main directory
+1. Open terminal in project's main directory
 
-1. Run `python sort.py` command,  bubble sort by default
+1. Run `python sort.py` command, uses bubble sort by default
 
-1. Maximize cmd to full screen for smoother effect
+1. Maximize terminal to full screen for smoother effect
 
 ## Arguments ⚙️
 
