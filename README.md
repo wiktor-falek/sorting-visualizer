@@ -61,7 +61,6 @@ def myalgorithm(array):
     # modify arr_copy
     yield arr_copy # function must yield updated array
                    # whenever you want to see the change
-  # function should yield until array is sorted
 ```
 
 ### Now you can visualize your algorithm running this command 👀
