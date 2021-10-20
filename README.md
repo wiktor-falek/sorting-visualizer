@@ -17,9 +17,10 @@ CLI tool for visualizing sorting algorithms
 
 `python sort.py -h` for list of algorithms and argument help
 
-1. `algorithm = bubble` required, use command above to see available algorithms
-
-1. `array_size = 15` required, must be in range(2, 51)
+\# | Argument | Type |  Default | Description | Required
+--- | --- | ---| --- | --- | ---
+1. | algorithm | str | bubble | sorting algorithm from algorithms folder   | ✔️ Yes
+2. | array_size| int | 15     | size of array ` range(1, array_size+1)` | ✔️ Yes
 
 ### Example
 
