@@ -17,9 +17,16 @@ CLI tool for visualizing sorting algorithms
 
 `python sort.py -h` for list of algorithms and argument help
 
-\# | BRUH
+\# | Argument
 --- | ---
-a | b
+1\. | b
+2\. | c
+```
+\#  | Argument  | Type |  Default | Description                              | Required
+| :---         |     :---:      |     :---:      |     :---:      |     :---:      |          ---: |
+1.  | algorithm | str  | bubble   | sorting algorithm from algorithms folder | ✔️ Yes
+2.  | array_size| int  | 15       | size of array ` range(1, array_size+1)`  | ✔️ Yes
+```
 
 ### Example
 
