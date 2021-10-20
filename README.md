@@ -19,8 +19,8 @@ CLI tool for visualizing sorting algorithms
 
 \# | Argument
 --- | ---
-1\. | b
-2\. | c
+1. | b
+2. | c
 ```
 \#  | Argument  | Type |  Default | Description                              | Required
 | :---         |     :---:      |     :---:      |     :---:      |     :---:      |          ---: |
