@@ -1,5 +1,5 @@
 # Sorting Visualizer
-CLI tool for visualizing sorting algorithms
+## CLI tool for visualizing sorting algorithms
 
 #### Bubble sort example
 
