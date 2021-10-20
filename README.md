@@ -17,7 +17,7 @@ CLI tool for visualizing sorting algorithms
 
 `python sort.py -h` for list of algorithms and argument help
 
-# | BRUH
+\# | BRUH
 --- | ---
 a | b
 
