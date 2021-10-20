@@ -46,9 +46,9 @@ CLI tool for visualizing sorting algorithms
 
 Create .py file in **algorithms** folder, for example myalgorithm.py
 
-⚠️| **Your function must be named after your file**
-:---: | :---
 ‼️ | **File name cannot start with an underscore**
+:---: | :---
+⚠️| **Your function must be named after your file**
 
 ### Example function ✍
 ```py
