@@ -17,9 +17,6 @@ CLI tool for visualizing sorting algorithms
 
 `python sort.py -h` for list of algorithms and argument help
 
-
-
-
 \#  | Argument  | Type |  Default | Description                              | Required
 --- | --- | --- | --- | --- | ---
 1.  | algorithm | str  | bubble   | sorting algorithm from algorithms folder | ✔️ Yes
