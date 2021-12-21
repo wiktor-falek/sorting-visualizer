@@ -2,6 +2,7 @@ from random import shuffle
 import argparse
 import time
 import os
+from sys import platform
 
 from _modules import * # all algorithm functions, modules - list of modules in algorithms folder
 
@@ -56,6 +57,8 @@ if __name__ == '__main__':
 
     while True:
         try:
+            if platform == "linux" or platform == "linux2":
+                time.sleep(0.05)            
             start_alg_time = time.perf_counter()
             arr = list(next(gen))
             alg_time += time.perf_counter() - start_alg_time
