@@ -20,8 +20,8 @@ CLI tool for visualizing sorting algorithms
 
 \#  | Argument | Type |  Default | Description                              | Required
 | :---         |     :---:      |     :---:      |     :---:      |     :---:      |          ---: |
-1\. | algorithm | str | bubble | sorting algorithm from algorithms folder | ✔️ Yes
-2\. | array_size| int | 15 | array with integers ranging from 1 to array_size + 1 | ✔️ Yes
+1\. | algorithm | str | bubble | sorting algorithm from algorithms folder | ❎ No
+2\. | array_size| int | 15 | array with integers ranging from 1 to array_size + 1 | ❎ No
 
 ### Example
 
