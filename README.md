@@ -1,6 +1,7 @@
 # Sorting Visualizer
 
-CLI tool for visualizing sorting algorithms
+CLI tool for visualizing sorting algorithms.
+⚠️ This is a VERY old project, the code is ugly, but it works (i think) 
 
 ![Alt text](/example.gif?raw=true "Bubble sort example")
 
@@ -12,7 +13,7 @@ CLI tool for visualizing sorting algorithms
 
 1. Run `python sort.py` command, optionally add arguments
 
-1. Maximize terminal to full screen for smoother effect
+1. Maximize terminal to full screen on windows for smoother effect
 
 ## Arguments ⚙️
 
