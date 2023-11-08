@@ -1,7 +1,8 @@
 # Sorting Visualizer
 
 CLI tool for visualizing sorting algorithms.
-⚠️ This is a VERY old project, the code is ugly, but it works (i think) 
+
+⚠️ This is a VERY old project, the code is ugly, but it works (until it doesn't)
 
 ![Alt text](/example.gif?raw=true "Bubble sort example")
 
