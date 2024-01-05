@@ -8,7 +8,7 @@ CLI tool for visualizing sorting algorithms.
 
 ##  How to use it? 🤔
 
-1. Have python 3.6+ installed
+1. Have Python 3.6+ installed
 
 1. Open terminal in project's main directory
 
